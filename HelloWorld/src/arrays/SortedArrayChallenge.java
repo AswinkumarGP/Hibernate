@@ -3,7 +3,7 @@ package arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main{
+public class SortedArrayChallenge {
 
     int[] array = new int[5];
     int[] sortedArray = new int[5];
@@ -11,11 +11,11 @@ public class Main{
 
     public static void main(String[] args) {
 
-        Main main = new Main();
-        main.getIntegers();
-        main.printArray(main.array);
-        main.sortIntegers(main.array);
-        main.printArray(main.sortedArray);
+        SortedArrayChallenge sortedArrayChallenge = new SortedArrayChallenge();
+        sortedArrayChallenge.getIntegers();
+        sortedArrayChallenge.printArray(sortedArrayChallenge.array);
+        sortedArrayChallenge.sortIntegers(sortedArrayChallenge.array);
+        sortedArrayChallenge.printArray(sortedArrayChallenge.sortedArray);
 
     }
 
