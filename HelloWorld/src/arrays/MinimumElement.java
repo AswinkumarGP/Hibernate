@@ -20,7 +20,6 @@ public class MinimumElement {
     }
 
     private static int findMin(int[] array){
-        //return Arrays.stream(array).min().getAsInt();
         int min = Integer.MAX_VALUE;
         for (int i=0; i<array.length; i++){
             if (array[i] < min){
